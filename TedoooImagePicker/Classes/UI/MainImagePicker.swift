@@ -2,6 +2,6 @@ import Combine
 
 public protocol TedoooImagePicker {
     
-    func pickImages(single: Bool, withCamera: Bool) -> AnyPublisher<UIImage?, Never>
+    func pickImages(from: UIViewController, single: Bool, withCamera: Bool) -> AnyPublisher<UIImage?, Never>
     
 }
