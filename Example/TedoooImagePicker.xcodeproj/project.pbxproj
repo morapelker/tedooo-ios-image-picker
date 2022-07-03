@@ -31,7 +31,7 @@
 		167405B1BA46977514C0224C /* Pods-TedoooImagePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TedoooImagePicker_Tests.release.xcconfig"; path = "Target Support Files/Pods-TedoooImagePicker_Tests/Pods-TedoooImagePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		19960509FE5FC18D110109EE /* Pods-TedoooImagePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TedoooImagePicker_Example.debug.xcconfig"; path = "Target Support Files/Pods-TedoooImagePicker_Example/Pods-TedoooImagePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3D1C59F4DCB86D212730C24B /* Pods_TedoooImagePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TedoooImagePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D827652AE385F8BF67050B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		3D827652AE385F8BF67050B4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TedoooImagePicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TedoooImagePicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,9 +44,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8106FD632F3192FC4867A451 /* Pods-TedoooImagePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TedoooImagePicker_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TedoooImagePicker_Tests/Pods-TedoooImagePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		82E05FEE1200A9D4481F0EC5 /* Pods_TedoooImagePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TedoooImagePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		89A034BB8301EF289090C6FC /* TedoooImagePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TedoooImagePicker.podspec; path = ../TedoooImagePicker.podspec; sourceTree = "<group>"; };
+		89A034BB8301EF289090C6FC /* TedoooImagePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TedoooImagePicker.podspec; path = ../TedoooImagePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		91B3EA56D9DC5ED8E8F564D1 /* Pods-TedoooImagePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TedoooImagePicker_Example.release.xcconfig"; path = "Target Support Files/Pods-TedoooImagePicker_Example/Pods-TedoooImagePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9ED18FCC8BD09599CC76BD90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9ED18FCC8BD09599CC76BD90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				8106FD632F3192FC4867A451 /* Pods-TedoooImagePicker_Tests.debug.xcconfig */,
 				167405B1BA46977514C0224C /* Pods-TedoooImagePicker_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
