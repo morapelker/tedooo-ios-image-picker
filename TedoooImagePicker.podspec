@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TedoooImagePicker'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'tedooo image picker api'
 
 # This description is used to generate tags and improve search results.
